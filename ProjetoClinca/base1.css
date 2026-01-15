@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.menu {
+    width: 25%;
+    background-color:  #8fb4daf2;
+   /* padding: 10px 20px 0px;*/
+    background-color:  #6395C9;
+    position: relative;
+
+}
+
+.menu_fixe{
+    position: fixed;
+    background-color: rgb(100,100,100,0.5);
+    width: 250px;
+        
+}
+
+.menu p{
+    text-align: center;
+     font-size: 20px;
+      color: #ffffff;
+}
+
+.menu li{
+    margin-bottom: 12px;
+    list-style: none;
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;  
+}
+.menu a:hover{   
+color: #2E2E2E;
+}
+
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header {
+    background-color:  #6395C9;
+    display:flex;
+    align-items: center;
+    padding: 5px;
+}
+img{
+    width: 50px;
+}
+span {
+    font-family: sans-serif;  
+    font-size: 24px;                    
+     font-weight: 500;                    
+     color: #ffffff;                   
+    letter-spacing: 0.5px;
+
+}
+.content{
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+}
+.footer {
+    background-color: #a5cef8f2;
+    flex-grow: 1;
+    min-height: 50px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;
+    flex-flow: column;
+    padding: 5px;
+
+}
+
+.footer p{
+    color:#ffffff;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+
+
+}
+
+.content_div{
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.content_div label,textarea{
+    display: block;
+    padding: 5px;
+
+}
+button{
+    margin-top: 10px;
+}
+
+form{
+    border: 2px solid #2E2E2E;
+    padding: 10px;
+    width: 300px;
+}
+
+.span-contato{
+    color: #2E2E2E;
+}
+.div-telefone{
+    display: flex;
+    align-items: center;
+}
+
+table {
+  border: 2px solid #000;
+  
+}
+thead {
+  background-color: #a5cef8f2; /* cor do cabeçalho */
+  color: white;              /* cor do texto */
+}
+
+td,th{
+    padding: 10px;
+    border: 1px solid #000; /* borda preta */
+
+}
